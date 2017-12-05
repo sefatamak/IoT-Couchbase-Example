@@ -16,6 +16,7 @@ There are 3 tables this example.
 ```sudo cbc create --mode insert user1 < object2.json -u your_username -P your_password -U couchbase://localhost/BucketName```
 
 <b>Run command.</b>
+
 ```python couchbase-example.py```
 
 
