@@ -9,11 +9,11 @@ There are 3 tables this example.
 
 ```sudo cbc create --mode insert user1 < user1.json -u your_username -P your_password -U couchbase://localhost/BucketName```
 
-```sudo cbc create --mode insert user1 < user2.json -u your_username -P your_password -U couchbase://localhost/BucketName```
+```sudo cbc create --mode insert user2 < user2.json -u your_username -P your_password -U couchbase://localhost/BucketName```
 
-```sudo cbc create --mode insert user1 < object1.json -u your_username -P your_password -U couchbase://localhost/BucketName```
+```sudo cbc create --mode insert object1 < object1.json -u your_username -P your_password -U couchbase://localhost/BucketName```
 
-```sudo cbc create --mode insert user1 < object2.json -u your_username -P your_password -U couchbase://localhost/BucketName```
+```sudo cbc create --mode insert object2 < object2.json -u your_username -P your_password -U couchbase://localhost/BucketName```
 
 <b>Run command.</b>
 
